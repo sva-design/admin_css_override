@@ -4,6 +4,14 @@
 -----------------------------------------------------------------------------*/
 
 .field.required label {
-  color: #c4301e;
+  color: #c4301e; /* matches default error color */
   font-weight: bold;
+}
+
+/* tag-list field suggestions */
+.field-taglist .tags {
+  border: .1rem solid #c5c5c5; /* matches some default .frame styles */
+  padding: .2rem .3rem;
+  max-height: 7.5em;
+  overflow: auto;
 }
