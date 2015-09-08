@@ -3,12 +3,7 @@
 	CSS rules placed here will override Symphony Admin styles;
 -----------------------------------------------------------------------------*/
 
-#nav ul {
-	font-size: 125%;
-	line-height: 2.0;
-}
-
-#nav a:hover {
-	color: #fff;
-	background-color: #81b934;
+.field.required label {
+  color: #c4301e;
+  font-weight: bold;
 }
