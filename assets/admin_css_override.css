@@ -3,6 +3,7 @@
 	CSS rules placed here will override Symphony Admin styles;
 -----------------------------------------------------------------------------*/
 
+/* required fields */
 .field.required label {
   color: #c4301e; /* matches default error color */
   font-weight: bold;
@@ -14,4 +15,10 @@
   padding: .2rem .3rem;
   max-height: 7.5em;
   overflow: auto;
+}
+
+/* image_index_preview fields */
+.imageLink img {
+  display: block;
+  margin-bottom: 5px;
 }
