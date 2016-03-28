@@ -4,7 +4,7 @@
 -----------------------------------------------------------------------------*/
 
 /* required fields */
-.field.required label {
+.field.required label:first-line {
   color: #c4301e; /* matches default error color */
   font-weight: bold;
 }
