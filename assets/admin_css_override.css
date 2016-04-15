@@ -22,3 +22,13 @@
   display: block;
   margin-bottom: 5px;
 }
+
+/* disabled submit button */
+input[type=submit][disabled=disabled] {
+  color: #3c3c3c;
+  border-color: rgba(0,0,0,.35);
+  background-image: -webkit-linear-gradient(top,#fbfbfa 0%,#e3e3df 50%);
+  background-image: linear-gradient(to bottom,#fbfbfa 0%,#e3e3df 50%);
+  /* styles above are same as input hover so that hover does not do anything */
+  opacity: .5;
+}
